@@ -1,0 +1,34 @@
+name: README build
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 4 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+      - name: Get Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: python -m pip install -r cache/requirements.txt
+      - name: Update README file
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+        run: python today.py
+      - name: Commit
+        run: |-
+          git add .
+          git diff
+          git config --global user.email "github-actions-bot@dineTH2003-dev.github.io"
+          git config --global user.name "dineTH2003-dev/GitHub-Actions-Bot"
+          git commit -m "Updated README profile stats" -a || echo "No changes to commit"
+          git push

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="990px" height="560px" font-size="15px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  size-adjust: 109%;
+}
+.key   { fill: #953800; }
+.val   { fill: #0550ae; }
+.add   { fill: #1a7f37; }
+.del   { fill: #cf222e; }
+.cc    { fill: #57606a; }
+.grn   { fill: #1a7f37; }
+.head  { fill: #24292f; }
+text, tspan { white-space: pre; }
+</style>
+<rect width="990px" height="560px" fill="#ffffff" rx="15"/>
+<rect width="990px" height="560px" fill="#f6f8fa" rx="15" opacity="0.6"/>
+
+<!-- LEFT: Terminal Window with ASCII Avatar & Commands -->
+<text x="15" y="30" fill="#57606a">
+<tspan x="15" y="30">.------------------------------.</tspan>
+<tspan x="15" y="50">|</tspan><tspan fill="#cf222e">  ●</tspan><tspan fill="#953800">  ●</tspan><tspan fill="#1a7f37">  ●</tspan><tspan fill="#57606a">       dineth@uom-dev |</tspan>
+<tspan x="15" y="70">|------------------------------|</tspan>
+<tspan x="15" y="90">|                              |</tspan>
+<tspan x="15" y="110">|  </tspan><tspan fill="#953800">$</tspan><tspan fill="#24292f"> whoami                    </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="130">|  </tspan><tspan fill="#1a7f37">dineth_wijesinghe          </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="150">|                              |</tspan>
+<tspan x="15" y="170">|  </tspan><tspan fill="#953800">$</tspan><tspan fill="#24292f"> cat bio.txt               </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="190">|  </tspan><tspan fill="#1a7f37">Uni of Moratuwa 🇱🇰         </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="210">|  </tspan><tspan fill="#1a7f37">DevOps &amp; Cloud Enthusiast  </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="230">|  </tspan><tspan fill="#1a7f37">Networking Core            </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="250">|                              |</tspan>
+<tspan x="15" y="270">|  </tspan><tspan fill="#953800">$</tspan><tspan fill="#24292f"> ls tech_stack/            </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="290">|  </tspan><tspan fill="#0550ae">AWS/  Docker/  K8s/        </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="310">|  </tspan><tspan fill="#0550ae">Linux/ Bash/ Terraform/    </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="330">|  </tspan><tspan fill="#0550ae">Python/ TS/ React/ Node/   </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="350">|  </tspan><tspan fill="#0550ae">Postgres/ Redis/ CI-CD/    </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="370">|                              |</tspan>
+<tspan x="15" y="390">|  </tspan><tspan fill="#953800">$</tspan><tspan fill="#24292f"> git status                </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="410">|  </tspan><tspan fill="#1a7f37">On branch main             </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="430">|  </tspan><tspan fill="#1a7f37">Ready to build &amp; deploy!  </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="450">|                              |</tspan>
+<tspan x="15" y="470">|  </tspan><tspan fill="#953800">$</tspan><tspan fill="#24292f"> _                         </tspan><tspan fill="#57606a">|</tspan>
+<tspan x="15" y="490">`------------------------------'</tspan>
+<tspan x="15" y="510">      [========================]</tspan>
+<tspan x="15" y="530">    [============================]</tspan>
+</text>
+
+<!-- RIGHT: Neofetch Info Panel -->
+<text x="365" y="30" fill="#24292f">
+<tspan x="365" y="30">dineth@wijesinghe</tspan><tspan fill="#57606a"> ─────────────────────────────────────</tspan>
+
+<tspan x="365" y="65"><tspan class="cc">. </tspan><tspan class="key">OS</tspan><tspan class="cc">: ....................... </tspan><tspan class="val">Ubuntu 24.04 LTS, Windows 11</tspan></tspan>
+<tspan x="365" y="85"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc" id="age_data_dots"></tspan><tspan class="val" id="age_data">22 years, 10 months, 19 days</tspan></tspan>
+<tspan x="365" y="105"><tspan class="cc">. </tspan><tspan class="key">Host</tspan><tspan class="cc">: ...................... </tspan><tspan class="val">University of Moratuwa</tspan></tspan>
+<tspan x="365" y="125"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">: ................. </tspan><tspan class="val">DevOps &amp; Cloud, Networking Core</tspan></tspan>
+<tspan x="365" y="145"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan><tspan class="cc">: ........................ </tspan><tspan class="val">VSCode</tspan></tspan>
+<tspan x="365" y="165"><tspan class="cc">. </tspan></tspan>
+
+<tspan x="365" y="185"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Programming</tspan><tspan class="cc">: .. </tspan><tspan class="val">Python, JavaScript, TypeScript</tspan></tspan>
+<tspan x="365" y="205"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Cloud&amp;DevOps</tspan><tspan class="cc">: . </tspan><tspan class="val">Linux, Bash, AWS, Docker, K8s</tspan></tspan>
+<tspan x="365" y="225"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Computer</tspan><tspan class="cc">: ..... </tspan><tspan class="val">HTML, CSS, SQL, JSON, YAML</tspan></tspan>
+<tspan x="365" y="245"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Real</tspan><tspan class="cc">: ......... </tspan><tspan class="val">English, Sinhala</tspan></tspan>
+<tspan x="365" y="265"><tspan class="cc">. </tspan></tspan>
+
+<tspan x="365" y="285"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan><tspan class="cc">.</tspan><tspan class="key">Software</tspan><tspan class="cc">: ....... </tspan><tspan class="val">Networking, Cybersecurity Testing</tspan></tspan>
+<tspan x="365" y="305"><tspan class="cc">. </tspan></tspan>
+
+<tspan x="365" y="325" fill="#24292f">- Contact</tspan><tspan fill="#57606a"> ────────────────────────────────────────────────</tspan>
+<tspan x="365" y="345"><tspan class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: ...................... </tspan><tspan class="val">wijesinghegdd.23@gmail.com</tspan></tspan>
+<tspan x="365" y="365"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: .................... </tspan><tspan class="val">dineth-wijesinghe</tspan></tspan>
+<tspan x="365" y="385"><tspan class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: .................... </tspan><tspan class="val">dineTH2003-dev</tspan></tspan>
+<tspan x="365" y="405"><tspan class="cc">. </tspan></tspan>
+
+<tspan x="365" y="425" fill="#24292f">- GitHub Stats</tspan><tspan fill="#57606a"> ──────────────────────────────────────────</tspan>
+<tspan x="365" y="445"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="val" id="repo_data">12</tspan><tspan> {</tspan><tspan class="key">Contrib</tspan>: <tspan class="val" id="contrib_data">18</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="cc" id="star_data_dots"> .......... </tspan><tspan class="val" id="star_data">15</tspan></tspan>
+<tspan x="365" y="465"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan><tspan class="cc" id="commit_data_dots"> ............... </tspan><tspan class="val" id="commit_data">482</tspan> | <tspan class="key">Followers</tspan>: <tspan class="cc" id="follower_data_dots"> ...... </tspan><tspan class="val" id="follower_data">24</tspan></tspan>
+<tspan x="365" y="485"><tspan class="cc">. </tspan><tspan class="key">Lines of Code</tspan><tspan class="cc" id="loc_data_dots"> .... </tspan><tspan class="val" id="loc_data">84,120</tspan> ( <tspan class="add" id="loc_add">92,400</tspan><tspan class="add">++</tspan>, <tspan class="del" id="loc_del_dots">. </tspan><tspan class="del" id="loc_del">8,280</tspan><tspan class="del">--</tspan> )</tspan>
+<tspan x="365" y="510"><tspan class="cc">. </tspan></tspan>
+</text>
+</svg>

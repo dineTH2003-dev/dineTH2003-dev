@@ -1,90 +1,79 @@
-![Header](./images/header-image.png)
+<div align="center">
 
-<!-- <h1 align="center">Hi 👋, I'm Dineth Wijesinghe</h1>
-<h3 align="center">Committed IT Student | Passionately Unveiling the Future of Technology</h3> -->
+  <!-- Typing Header -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&height=50&lines=Hi+%F0%9F%91%8B%2C+I'm+Dineth+Wijesinghe;DevOps+%26+Cloud+Enthusiast+%F0%9F%9A%80;Student+%40+University+of+Moratuwa+%F0%9F%8D%83" alt="Typing SVG" />
+  </a>
 
-</br>
+  <br><br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=28&pause=1000&color=61dafb&width=500&lines=Hi%2C+I%E2%80%99m+Dineth+Wijesinghe+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;I%E2%80%99m+a+Software+Developer+%F0%9F%9A%80)](https://git.io/typing-svg)
+  <!-- Neofetch Dynamic Card (Dark / Light Theme Auto-Toggle) -->
+  <a href="https://github.com/dineTH2003-dev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+      <img alt="Dineth Wijesinghe's Neofetch Profile" src="light_mode.svg" width="100%">
+    </picture>
+  </a>
 
----
+</div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=DinethWijesinghe&label=Profile%20views&color=0e75b6&style=flat" alt="DinethWijesinghe" /> </p>
-
-
-- 🌱 I’m currently studying *at university of Moratuwa.*
-
-- 📫 How to reach me *dinethdilshan321@gmail.com*
-
-<h5 align="center">
-  <code><a href="https://www.linkedin.com/in/" title="LinkedIn Profile"><img width="22" src="images/linkedin.svg"> LinkedIn</a></code>
-  
-  <code><a href=" " title="Instagram Profile"><img width="22" src="images/instagram.svg"> Instagram</a></code>
-</h5>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="center">
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-  </a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/>
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
-  </a>
- 
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" width="40" height="40"/>
-  </a>
-</p>
-<p align="left">
-<br/>
-
----
-
-<h2 align="center">⚡ Stats ⚡</h2>
 <br>
-<p align=center>
-  <div align=center>
-    <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
-      <img align="left" width=390 src="https://streak-stats.demolab.com/?user=DinethWijesinghe&theme=react&border=61dafb&hide_border=true" alt="DinethWijesinghe" />
-    </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
-      <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=dineTH2003-dev&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
-    </a>
-  </div>
-  <br><br><br><br><br><br><br><br><br>
-  <div align=center>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineTH2003-dev&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true&size_weight=0.5&count_weight=0.5" />
-    </a>
-  </div>
-  <br>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dineTH2003-dev&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+## 🛠️ Tech Stack & Architecture
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>💻 Languages & Frontend</h3>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+    </td>
+    <td valign="top" width="50%">
+      <h3>⚡ Backend & Databases</h3>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/REST_APIs-0055DA?style=for-the-badge&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>☁️ Cloud & DevOps</h3>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+    </td>
+    <td valign="top" width="50%">
+      <h3>📊 Observability & SRE Tools</h3>
+      <img src="https://img.shields.io/badge/OpenTelemetry-F5A800?style=for-the-badge&logo=opentelemetry&logoColor=white" />
+      <img src="https://img.shields.io/badge/Honeycomb-FF6A00?style=for-the-badge&logo=honeycomb&logoColor=white" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="mailto:wijesinghegdd.23@gmail.com">
+    <img src="https://img.shields.io/badge/Email-wijesinghegdd.23%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/dineth-wijesinghe">
+    <img src="https://img.shields.io/badge/LinkedIn-Dineth_Wijesinghe-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
