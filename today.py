@@ -134,7 +134,7 @@ def find_and_replace(root, element_id, new_text):
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'age_data', age_data, 32)
+    justify_format(root, 'age_data', age_data, 48)
     justify_format(root, 'commit_data', commit_data, 18)
     justify_format(root, 'star_data', star_data, 12)
     justify_format(root, 'repo_data', repo_data, 6)
