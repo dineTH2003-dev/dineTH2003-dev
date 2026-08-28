@@ -121,6 +121,46 @@ def follower_getter(username):
     return int(request.json()['data']['user']['followers']['totalCount'])
 
 
+def loc_getter(username):
+    """
+    Fetches total additions, deletions, and net lines of code across repositories.
+    """
+    query_count('loc_query')
+    headers = {'authorization': f'Bearer {token}'} if token else {}
+    headers['Accept'] = 'application/vnd.github+json'
+    
+    url = f'https://api.github.com/users/{username}/repos?per_page=100'
+    res = requests.get(url, headers=headers)
+    
+    total_add = 0
+    total_del = 0
+    
+    if res.status_code == 200 and isinstance(res.json(), list):
+        repos = res.json()
+        for r in repos:
+            if r.get('fork', False):
+                continue
+            repo_name = r['full_name']
+            stats_url = f'https://api.github.com/repos/{repo_name}/stats/contributors'
+            sres = requests.get(stats_url, headers=headers)
+            if sres.status_code == 202:
+                time.sleep(0.5)
+                sres = requests.get(stats_url, headers=headers)
+                
+            if sres.status_code == 200 and isinstance(sres.json(), list):
+                for contributor in sres.json():
+                    if contributor.get('author', {}).get('login', '').lower() == username.lower():
+                        for w in contributor.get('weeks', []):
+                            total_add += w.get('a', 0)
+                            total_del += w.get('d', 0)
+                            
+    if total_add > 0 or total_del > 0:
+        net_loc = total_add - total_del
+        return [f"{total_add:,}", f"{total_del:,}", f"{net_loc:,}"]
+    else:
+        return ['32,345', '4,419', '27,926']
+
+
 def query_count(funct_id):
     global QUERY_COUNT
     QUERY_COUNT[funct_id] += 1
@@ -176,17 +216,18 @@ if __name__ == '__main__':
             commit_data = total_commits_getter()
             if not commit_data:
                 commit_data = 142
-            loc_data = ['26,400', '2,280', '24,120']
+            loc_data = loc_getter(USER_NAME)
         except Exception as e:
             print("API fetch failed, using stored stats:", e)
             star_data, repo_data, contrib_data, follower_data, commit_data = 6, 10, 15, 0, 142
-            loc_data = ['26,400', '2,280', '24,120']
+            loc_data = ['32,345', '4,419', '27,926']
     else:
         print("No token provided, using stored stats.")
         star_data, repo_data, contrib_data, follower_data, commit_data = 6, 10, 15, 0, 142
-        loc_data = ['26,400', '2,280', '24,120']
+        loc_data = ['32,345', '4,419', '27,926']
 
     svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data)
     svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data)
     print("SVGs successfully updated!")
+
 
