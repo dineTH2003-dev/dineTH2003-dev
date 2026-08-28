@@ -6,7 +6,8 @@ from lxml import etree
 import time
 import hashlib
 
-HEADERS = {'authorization': 'token ' + os.environ.get('ACCESS_TOKEN', '')}
+token = os.environ.get('ACCESS_TOKEN') or os.environ.get('GITHUB_TOKEN', '')
+HEADERS = {'authorization': f'Bearer {token}'} if token else {}
 USER_NAME = os.environ.get('USER_NAME', 'dineTH2003-dev')
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
@@ -50,6 +51,20 @@ def graph_commits(start_date, end_date):
     variables = {'start_date': start_date, 'end_date': end_date, 'login': USER_NAME}
     request = simple_request(graph_commits.__name__, query, variables)
     return int(request.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions'])
+
+
+def total_commits_getter():
+    total_commits = 0
+    current_year = datetime.datetime.now().year
+    for year in range(2020, current_year + 1):
+        start_date = f"{year}-01-01T00:00:00Z"
+        end_date = f"{year}-12-31T23:59:59Z"
+        try:
+            commits = graph_commits(start_date, end_date)
+            total_commits += commits
+        except Exception as e:
+            print(f"Error fetching commits for {year}:", e)
+    return total_commits
 
 
 def graph_repos_stars(count_type, owner_affiliation, cursor=None):
@@ -152,23 +167,26 @@ if __name__ == '__main__':
     birthday = datetime.datetime(2003, 10, 8)
     age_data = daily_readme(birthday)
     
-    if os.environ.get('ACCESS_TOKEN'):
+    if token:
         try:
             star_data = graph_repos_stars('stars', ['OWNER'])
             repo_data = graph_repos_stars('repos', ['OWNER'])
             contrib_data = graph_repos_stars('repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
             follower_data = follower_getter(USER_NAME)
-            # Default commit count & loc data
-            commit_data = 482
+            commit_data = total_commits_getter()
+            if not commit_data:
+                commit_data = 142
             loc_data = ['26,400', '2,280', '24,120']
         except Exception as e:
             print("API fetch failed, using stored stats:", e)
             star_data, repo_data, contrib_data, follower_data, commit_data = 6, 10, 15, 0, 142
             loc_data = ['26,400', '2,280', '24,120']
     else:
+        print("No token provided, using stored stats.")
         star_data, repo_data, contrib_data, follower_data, commit_data = 6, 10, 15, 0, 142
         loc_data = ['26,400', '2,280', '24,120']
 
     svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data)
     svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data)
     print("SVGs successfully updated!")
+
