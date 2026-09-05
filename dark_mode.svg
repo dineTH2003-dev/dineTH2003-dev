@@ -47,7 +47,7 @@ text, tspan { white-space: pre; }
 <text x="350" y="30" fill="#c9d1d9">
 <tspan x="350" y="30">dineth@wijesinghe</tspan><tspan class="cc"> ─────────────────────────────────────────────</tspan>
 <tspan x="350" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="val">Ubuntu 24.04 LTS, Windows 11</tspan>
-<tspan x="350" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> .................... </tspan><tspan class="val" id="age_data">22 years, 10 months, 27 days</tspan>
+<tspan x="350" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> .................... </tspan><tspan class="val" id="age_data">22 years, 10 months, 28 days</tspan>
 <tspan x="350" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="val">University of Moratuwa</tspan>
 <tspan x="350" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ......... </tspan><tspan class="val">DevOps &amp; Cloud Enthusiast, Networking</tspan>
 <tspan x="350" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="val">VSCode</tspan>
@@ -65,7 +65,7 @@ text, tspan { white-space: pre; }
 <tspan x="350" y="370" class="cc">. </tspan>
 <tspan x="350" y="390">- GitHub Stats</tspan><tspan class="cc"> ─────────────────────────────────────────────</tspan>
 <tspan x="350" y="410" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="val" id="repo_data">11</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="val" id="contrib_data">14</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........... </tspan><tspan class="val" id="star_data">9</tspan>
-<tspan x="350" y="430" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ............... </tspan><tspan class="val" id="commit_data">413</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....... </tspan><tspan class="val" id="follower_data">0</tspan>
-<tspan x="350" y="450" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"> .... </tspan><tspan class="val" id="loc_data">75,880</tspan> ( <tspan class="add" id="loc_add">108,210</tspan><tspan class="add">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">32,330</tspan><tspan class="del">--</tspan> )
+<tspan x="350" y="430" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ............... </tspan><tspan class="val" id="commit_data">420</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....... </tspan><tspan class="val" id="follower_data">0</tspan>
+<tspan x="350" y="450" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"> .... </tspan><tspan class="val" id="loc_data">64,574</tspan> ( <tspan class="add" id="loc_add">96,223</tspan><tspan class="add">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">31,649</tspan><tspan class="del">--</tspan> )
 </text>
 </svg>
